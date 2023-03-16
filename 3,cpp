@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int n;
+    cin>>n;
+
+    while(n--){
+        string g1, g2;
+        cin>>g1>>g2;
+
+        if((g1 == "false" && g2 == "true") ||(g1 == "true" && g2 == "false")){
+            cout<<"false\n";
+        }
+        else {
+            cout<<"true\n";
+        }
+    }
+
+}
